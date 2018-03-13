@@ -1,0 +1,40 @@
+div.div0 {
+    border: 25px solid red;
+    padding: 25px;
+    margin: 25px;
+    background-color: darkgrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+    outline: 10px dashed darkorange;
+    border-top: hidden;
+    border-bottom: hidden;
+    clip-path: circle(60%)
+}
+p.p1 {
+    display: inline;
+}
+
+div.div1 {
+    width: 150px;
+    height: 75px;
+    overflow: scroll;
+    background-color: dimgray;
+}
+div.div2 {
+    width: 150px;
+    height: 75px;
+    overflow: hidden;
+    background-color: dimgray;
+}
+div.div3 {
+    width: 150px;
+    height: 75px;
+    overflow: auto;
+    background-color: dimgray;
+}
+div.div4 {
+    width: 150px;
+    height: 75px;
+    overflow: visible;
+    background-color: dimgray;
+}
