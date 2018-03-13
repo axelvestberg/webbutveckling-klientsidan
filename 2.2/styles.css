@@ -1,0 +1,28 @@
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: darkgrey;
+}
+li {
+    font: 12px;
+    font-family: monospace;
+    color: darkcyan;
+}
+.square {
+    list-style: square;
+}
+
+#xx-small {
+    font-size: xx-small;
+}
+#x-small {
+    font-size: x-small;
+}
+#small {
+    font-size: small;
+}
+#medium {
+    font-size: medium;
+}
