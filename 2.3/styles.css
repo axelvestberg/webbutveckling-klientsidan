@@ -38,3 +38,51 @@ div.div4 {
     overflow: visible;
     background-color: dimgray;
 }
+div.div5 {
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border-radius: 50px;
+    
+}
+div.div6 {
+    background-color: rgb(255, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 100px;
+    opacity: 0.3;
+    color: white;
+}
+div.div7 {
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    background: 
+    url(https://i.imgur.com/eLq2ekj.jpg), 
+    url(https://i.imgur.com/TZCUk5y.jpg), 
+    url(https://i.imgur.com/OdRmJmD.jpg);
+    background-position:right bottom, top left,  top right;
+    background-size: 150px, 300px, 100px;
+    background-repeat: no-repeat;
+    box-shadow: 5px 10px slategrey;
+}
+div.div8 {
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(white, black)
+}
+div.div9 {
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 200px;
+    background: radial-gradient(white, black)
+}
+
