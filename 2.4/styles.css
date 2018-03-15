@@ -13,8 +13,22 @@ li {
     background:url(https://i.imgur.com/OdRmJmD.jpg);
     color: white;
     background-size: contain;
+    opacity: 0.5;
 }
 p {
     color: white;
     font-size: 20px;
+    background: orange;
+    opacity: 0.5;
+}
+img {
+    width: auto;
+    height: 200px;
+    border-radius: 20px;
+    border: solid red;
+    background-size: contain;
+    float:left;
+}
+div.div1 {
+    clear: both;
 }
