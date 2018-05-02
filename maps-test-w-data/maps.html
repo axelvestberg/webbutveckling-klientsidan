@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+<title>Test</title>
+</head>
+<body>
+<center style="font-size: 20px;">Api test</center>
+
+<ul>
+
+</ul>
+
+</body>
+
+<script>
+    
+    var myList = document.querySelector('ul');
+
+    const timeapi = 'http://time.jsontest.com';
+    const sthlmapi = 'http://api.stockholm.se/ServiceGuideService/ServiceUnitTypes/9da341e4-bdc6-4b51-9563-e65ddc2f7434/ServiceUnits/json?apikey=83cc8184e26f48369d22259c7c016825';
+
+    
+
+    fetch(sthlmapi)
+        .then(res => res.json())
+        .then((out) => {
+            
+            for (var i = 0; i < out.length; i++) {
+                var listItem = document.createElement('li');
+                listItem.innerHTML = out[i].Name;
+                myList.appendChild(listItem);
+            }
+
+    }).catch(err => console.error(err));
+
+</script>
+
+</html>
