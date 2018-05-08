@@ -21,7 +21,6 @@
   <body>
     <div id="map"></div>
     <script>
-      var map;
 
       var markers = [
   ['Tegnérlunden', 59.338374, 18.054490, 'address 1'],
@@ -307,7 +306,7 @@
         });
         marker_objects = [];
         for (i = 0; i < markers.length; i++) {
-    marker = new google.maps.Marker({
+      marker = new google.maps.Marker({
       position: new google.maps.LatLng(markers[i][1], markers[i][2]),
       map: map,
       title: markers[i][0]
@@ -337,9 +336,9 @@
 }
 google.maps.event.addDomListener(window, "load", initMap);
       
-      //X NEDAN ÄR APIKOD XXXXXXXXXXXXXXX
-      //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-      const sthlmapi = 'http://api.stockholm.se/ServiceGuideService/ServiceUnitTypes/9da341e4-bdc6-4b51-9563-e65ddc2f7434/ServiceUnits/json?apikey=83cc8184e26f48369d22259c7c016825';
+//X NEDAN ÄR APIKODEN XXXXXXXXXXXXXXX
+//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+const sthlmapi = 'http://api.stockholm.se/ServiceGuideService/ServiceUnitTypes/9da341e4-bdc6-4b51-9563-e65ddc2f7434/ServiceUnits/json?apikey=83cc8184e26f48369d22259c7c016825';
       
 fetch(sthlmapi)
     .then(res => res.json())

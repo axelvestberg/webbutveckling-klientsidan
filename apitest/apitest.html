@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <head>
 <title>Test</title>
+
 </head>
 <body>
-<center style="font-size: 20px;">Api test</center>
+
+<h1>View page source and web browser console for output</h1>
+
 </body>
 
 <script>
     
-    const timeapi = 'http://time.jsontest.com';
     const sthlmapi = 'http://api.stockholm.se/ServiceGuideService/ServiceUnitTypes/9da341e4-bdc6-4b51-9563-e65ddc2f7434/ServiceUnits/json?apikey=83cc8184e26f48369d22259c7c016825';
    
     fetch(sthlmapi)
-        .then(res => res.json())
-        .then((out) => {
-            console.log('Output: ', out);
+        .then(response => response.json())
+        .then((parks) => {
+            console.log('Parks: ', parks);
     }).catch(err => console.error(err));
 
 </script>
