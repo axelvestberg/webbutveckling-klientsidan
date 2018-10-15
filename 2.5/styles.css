@@ -1,25 +1,33 @@
+body {
+    margin-top: 16px;
+}
+
 a:link {
-    color: green; 
-    background-color: transparent; 
+    color: black; 
+    background-color: orange; 
     text-decoration: none;
+    margin-left: 5px;
+    border: solid 5px orange;
+    border-radius: 5px;
+    font-size: 20px;
 }
 
 a:visited {
-    color: yellow;
     background-color: transparent;
     text-decoration: none;
+    border: solid 5px orange;
+    color: black;
+    font-size: 20px;
 }
 
 a:hover {
     color:green;
-    background-color: transparent;
     text-decoration: underline;
-    font-size: 100px;
-    cursor: zoom-in;
+    font-size: 25px;
 }
 
 a:active {
-    color: yellow;
+    color: pink;
     background-color: transparent;
     text-decoration: underline;
 }

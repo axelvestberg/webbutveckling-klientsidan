@@ -32,3 +32,8 @@ img {
 div.div1 {
     clear: both;
 }
+a { 
+    background-color: white;
+    font-size: 20px;
+    padding: 10px;  
+}
