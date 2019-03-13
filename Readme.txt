@@ -27,3 +27,5 @@ Tasks to be done:
 3.4.4
 3.4.5
 Gesällprov
+
+Formatting done with: Prettier - Code Formatter
