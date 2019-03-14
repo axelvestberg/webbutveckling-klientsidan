@@ -40,7 +40,7 @@
 		</div>
 		<p>Du har scrollat <span id="scroll">0</span> gånger.</p>
 		<p>
-			Räkna antalet tangenttryckningar: <input type="text" />
+			Räkna antalet tecken som skrivits in i fältet: <input type="text" />
 			<span id="press">0</span>
 		</p>
 		<a href="../2.5/index.html"
@@ -50,8 +50,11 @@
 		>
 		<p>Muspekare är på positionen: <span id="position"></span></p>
 		<div id="hoverbox"><p id="boxtext">Hover here</p></div>
-		<button id="off">Ta bort jquery event på hoverbox</button>
+		<button id="off">
+			Tryck på mig för att ta bort klick eventet på paragrafen nedan
+		</button>
+		<p id="offp">
+			Om du klickat på knappen ovan innan du klickar på mig så händer inget
+		</p>
 	</body>
-	<!--
-    off
---></html>
+</html>

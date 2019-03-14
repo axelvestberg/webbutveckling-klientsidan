@@ -47,9 +47,14 @@ $(document).ready(function() {
 	$(document).mousemove(function(event) {
 		$("#position").text("X: " + event.pageX + ", Y: " + event.pageY);
 	});
-	/*
-    $("#off").click(function(){
-        $("#position").off("mousemove");
-    });
-    */
+
+	$("#off").click(function() {
+		$("#offp").off("click");
+	});
+
+	$("#offp").click(function() {
+		$("#offp")
+			.text("Du har inte tryckt på knappen ovan")
+			.css({ color: "red" });
+	});
 });

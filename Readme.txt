@@ -14,10 +14,9 @@ Completed tasks:
 2.7
 2.8
 3.1
+3.2
 
 Halfdone tasks:
-
-3.2
 
 Tasks to be done:
 3.3
