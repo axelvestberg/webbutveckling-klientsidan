@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="sv">
 	<head>
 		<link rel="stylesheet" type="text/css" href="styles.css" />
 		<script src="script.js"></script>
@@ -28,11 +28,14 @@
 		<button onclick="myClose()">Stäng fönstret</button>
 
 		<h2>setInterval & clearInterval</h2>
-		<button onclick="mySetInterval()">
-			Öppna en alert efter 2 sekunder i all oändlighet
-		</button>
-		<button onclick="myClearInterval()">Sluta öppna nya alerts</button>
-		<h2>setTimeout</h2>
-		<h2>clearTimeout</h2>
+		En räknare starta med setInterval, tryck på knappen för att anropa
+		clearInterval
+		<button onclick="stopInterval()">Stoppa räknaren</button>
+		<p id="counterId">0</p>
+		<h2>setTimeout & clearTimeout</h2>
+		<button onclick="myTimeout()">Skicka meddelande</button>
+		<button onclick="abortMessage()">Ångra</button>
+		<p id="message">Ditt meddelande kommer att visas här</p>
+		<p id="messageSent"></p>
 	</body>
 </html>

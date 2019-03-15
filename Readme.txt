@@ -15,12 +15,10 @@ Completed tasks:
 2.8
 3.1
 3.2
-
-Halfdone tasks:
-
-Tasks to be done:
 3.3
+Halfdone tasks:
 3.4.1
+Tasks to be done:
 3.4.2
 3.4.3
 3.4.4
