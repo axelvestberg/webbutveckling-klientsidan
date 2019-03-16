@@ -18,12 +18,12 @@ Completed tasks:
 3.3
 3.4.1
 3.4.2
-Halfdone tasks:
-
-Tasks to be done:
 3.4.3
 3.4.4
+
+Tasks to be done:
 3.4.5
+
 Gesällprov
 
 Formatting done with: Prettier - Code Formatter
