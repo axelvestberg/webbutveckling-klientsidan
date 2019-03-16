@@ -16,10 +16,11 @@ Completed tasks:
 3.1
 3.2
 3.3
-Halfdone tasks:
 3.4.1
-Tasks to be done:
 3.4.2
+Halfdone tasks:
+
+Tasks to be done:
 3.4.3
 3.4.4
 3.4.5
