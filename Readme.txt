@@ -20,9 +20,10 @@ Completed tasks:
 3.4.2
 3.4.3
 3.4.4
+3.4.5
 
 Tasks to be done:
-3.4.5
+Gå igenom alla uppgifter och städa upp koden, byt ut imagelänkar till bilderna i images, kommentera koden
 
 Gesällprov
 
